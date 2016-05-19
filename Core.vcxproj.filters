@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{a78c4615-017e-4609-9a42-e27912609610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileManager">
+      <UniqueIdentifier>{dc63d612-a127-458d-9654-f5c8ac1e93ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryManager">
+      <UniqueIdentifier>{b8330c6d-10c1-40c8-88c0-41fbc945505c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileManager\File_win32.h">
+      <Filter>FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager\File_Orbis.h">
+      <Filter>FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager\FileManager_Win32.h">
+      <Filter>FileManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Math\Vector3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager\File_win32.cpp">
+      <Filter>FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager\File_Orbis.cpp">
+      <Filter>FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager\FileManager_Win32.cpp">
+      <Filter>FileManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
